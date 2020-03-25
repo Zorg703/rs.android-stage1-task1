@@ -5,7 +5,6 @@ import java.util.stream.Collector
 import kotlin.streams.toList
 
 class HighestPalindrome {
-    // TODO: Complete the following function
     fun highestValuePalindrome(n: Int, k: Int, digitString: String): String {
     var arr = digitString.toCharArray();
     var minChangesCounter = 0;
